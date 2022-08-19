@@ -51,8 +51,8 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
-remote_theme: samarsault/plainwhite-jekylls
+#theme: plainwhite
+#remote_theme: samarsault/plainwhite-jekylls
 
 plugins:
   - jekyll-seo-tag
