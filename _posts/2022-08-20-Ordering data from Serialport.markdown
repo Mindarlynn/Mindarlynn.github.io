@@ -82,8 +82,9 @@ void ProcessPacket(){
         // If the data containing "hi" is less than the total size of 22byte, the data is discarded.
         if (aggregator.Count < 22) continue;
 
-        // If the data containing "hi" is greater than the total size of 22byte, the aggregator's front data is discarded to match 22byte. (If it is larger than 22byte, most of the previous data is lost and only 'i' remains.)
-        while (aggregator.Count > 22) acc.Dequeue();
+        // If the data containing "hi" is greater than the total size of 22byte, the aggregator's front data is discarded to match 22byte.
+        // If it is larger than 22byte, most of the previous data is lost and only 'i' remains.
+        while (aggregator.Count > 22) aggregator.Dequeue();
 
         var packet = aggregator.ToArray();
 
