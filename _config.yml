@@ -1,5 +1,5 @@
-title: YEGU Kwon
-author: YEGU Kwon
+title: Yegu Kwon
+author: Yegu Kwon
 email: wt2080@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   
@@ -10,8 +10,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: YEGU Kwon
-  tagline: "C# WPF Developer"
+  name: Yegu Kwon
+  tagline: "Project Manager at Rakuten Mobile, Inc."
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -26,7 +26,7 @@ plainwhite:
   social_links:
     #twitter: samarsault
     github:  Mindarlynn
-    linkedIn: "in/yegu-kwon-8b6a37160"
+    linkedIn: "in/yegukwon"
     #dribbble: jekyll
     #flickr:   jekyll
     instagram: yegukwon
